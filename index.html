@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P⏵Layer — Radio Automation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <canvas id="hero-canvas"></canvas>
+    <div class="header-content">
+      <div class="logo-container">
+        <img src="icones/p-layer-logo.png" alt="P-Layer Logo" class="logo" />
+      </div>
+      <h1>P⏵Layer</h1>
+      <p class="subtitle">Radio Automation & Live Streaming</p>
+      <a class="button primary" href="#download">Download</a>
+    </div>
+  </header>
+
+  <section class="section features">
+    <h2>Main Features</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>✔ Smart Crossfade Engine</h3>
+        <p>Smooth transitions, intelligent silence detection, and punchy compressor for true broadcast sound.</p>
+      </div>
+
+      <div class="feature">
+        <h3>✔ On-Air Scheduler</h3>
+        <p>Automatic playlist loading based on date & time with seamless switching to new hours. Category rotation (coming soon)</p>
+      </div>
+
+      <div class="feature">
+        <h3>✔ Integrated Library</h3>
+        <p>Folders as categories, instant search, drag & drop into your playlist.</p>
+      </div>
+
+      <div class="feature">
+        <h3>✔ Icecast / Shoutcast Streaming</h3>
+        <p>MP3 encoder, real-time metadata updates, and stable noise-free streaming.</p>
+      </div>
+
+      <div class="feature">
+        <h3>✔ Commands System</h3>
+        <p>Add <b>Start Stream</b> or <b>Stop Stream</b> commands directly into the playlist for full automation.</p>
+      </div>
+
+      <div class="feature">
+        <h3>✔ Voice Tracking (coming soon)</h3>
+        <p>Record voice breaks, preview transitions, and insert VT into scheduled hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section screenshot">
+    <h2>Clean & Focused Interface</h2>
+    <p>A modern, efficient layout designed for real broadcasters.</p>
+
+    <div class="screenshot-box carousel-container">
+      <button class="carousel-btn prev-btn">❮</button>
+      <div class="carousel-track">
+        <img src="screenshots/screen0.png" alt="P-Layer Interface" class="carousel-img active" />
+        <img src="screenshots/screen1.png" alt="P-Layer Interface" class="carousel-img" />
+        <img src="screenshots/screen2.png" alt="P-Layer Interface" class="carousel-img" />
+        <img src="screenshots/screen3.png" alt="P-Layer Interface" class="carousel-img" />
+      </div>
+      <button class="carousel-btn next-btn">❯</button>
+    </div>
+  </section>
+
+  <section class="section download" id="download">
+    <h2>Download</h2>
+    <p>Choose your platform:</p>
+
+    <div class="download-buttons">
+      <a class="button" href="https://github.com/P-Layer-app/download/raw/main/P-Layer-0.1.0-arm64.dmg" target="_blank">macOS (Apple Silicon)</a>
+      <a class="button" href="https://github.com/P-Layer-app/download/raw/main/P-Layer-0.1.0-x64.dmg " target="_blank">macOS (Intel)</a>
+    </div>
+    <div class="donate-box" style="margin-top: 40px;">
+      <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support via Ko-fi', '#7b88ad', 'G2G01P2DJA');kofiwidget2.draw();
+      </script> 
+    </div>
+
+    <p class="note">If you like the project, consider supporting development ❤️</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 P-Layer. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
